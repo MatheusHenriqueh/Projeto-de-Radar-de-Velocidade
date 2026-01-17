@@ -1,5 +1,5 @@
 #Projeto de RADAR
-#Autor: Matheus Ruivo
+#Autor: Matheus Henrique
 #Data: 31/10/25
 
 velocidade_do_seu_car = int(input("Qual a velocidade do seu carro no momento?"))#exp: 50
@@ -21,4 +21,5 @@ if local3 and multa:
 elif local3 or n_multa:
     print("Você não tomou multa, pois passou na velocidade baixa.")
 elif local4 and n_multa:
+
     print("Não passou no radar ainda!")
